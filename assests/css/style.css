@@ -26,13 +26,14 @@ h1{
    font-size: 40px; 
 }
 
-#site_main{
+body{
     margin: 10px;
 }
 
 #autore{
 
     color:#8e8e8e;
+    margin-bottom: 10px;
 }
 
 #booleaner{
@@ -65,6 +66,8 @@ background: #ffff00;
 
 }
 
+/* tabella */
+
 table{
 
 border-collapse: collapse;
@@ -90,3 +93,34 @@ th{
 
         background-color:#20aae57d ;
 }
+
+footer{
+    margin-top: 30px;
+}
+
+h4{
+    color: #8e8e8e;
+    margin-bottom: 5px;
+}
+
+
+#img1{
+
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: white;
+    
+}
+
+#img2{
+
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: white;
+    margin-top: 10px
+}
+
