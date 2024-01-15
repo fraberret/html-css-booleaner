@@ -27,7 +27,7 @@ h1{
 }
 
 #site_main{
-    margin-left: 10px;
+    margin: 10px;
 }
 
 #autore{
@@ -40,14 +40,10 @@ h1{
     color: #30afe7;
 }
 
-#data{
 
-    font-size: 12px;
-}
+.small{
 
-#photo_description{
-
-   font-size: 12px; 
+    font-size: 12px; 
 }
 
 .space{
@@ -59,4 +55,38 @@ ul{
 
 
     margin-left: 12px;
+}
+
+.subtitled{
+
+background: #ffff00;
+
+
+
+}
+
+table{
+
+border-collapse: collapse;
+
+}
+
+
+thead{
+    background-color:#20a9e5 ;
+    
+
+
+
+}
+
+th{
+    width: 500px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.tbody{
+
+        background-color:#20aae57d ;
 }
