@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 
@@ -19,4 +19,32 @@
  width: 200px; 
  height: 130px;   
  
+}
+
+h1{
+   font-size: 40px; 
+}
+
+#site_main{
+    margin: 20px 10px;
+}
+
+#autore{
+
+    color:#8e8e8e;
+}
+
+#booleaner{
+
+    color: #30afe7;
+}
+
+#data{
+
+    font-size: 12px;
+}
+
+#photo_description{
+
+   font-size: 12px; 
 }
