@@ -17,7 +17,8 @@
 
 #logo{
  width: 200px; 
- height: 130px;   
+ height: 130px; 
+ margin-left: 10px;  
  
 }
 
@@ -26,7 +27,7 @@ h1{
 }
 
 #site_main{
-    margin: 20px 10px;
+    margin-left: 10px;
 }
 
 #autore{
@@ -47,4 +48,15 @@ h1{
 #photo_description{
 
    font-size: 12px; 
+}
+
+.space{
+
+    margin-top: 20px;
+
+}
+ul{
+
+
+    margin-left: 12px;
 }
