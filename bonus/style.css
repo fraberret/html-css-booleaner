@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+#site_header{
+    height: 100px;
+    background-color: #4ea0ff;
+    background-image: url(../assests/img/pattern.png);
+    background-size: 30% ;
+    
+    
+}
+
+
+
+#logo{
+ width: 200px; 
+ height: 130px; 
+ margin-left: 10px;  
+ 
+}
+
+
+#container{
+
+    width: 1200px;
+    margin: auto;
+}
+
+h1{
+   font-size: 40px; 
+}
+
+body{
+    margin: 10px;
+}
+
+#autore{
+
+    color:#8e8e8e;
+    margin-bottom: 10px;
+}
+
+#booleaner{
+
+    color: #30afe7;
+}
+
+
+.small{
+
+    font-size: 12px; 
+}
+
+.space{
+
+    margin-top: 20px;
+
+}
+ul{
+
+
+    margin-left: 12px;
+}
+
+.subtitled{
+
+background: #ffff00;
+
+
+
+}
+
+/* tabella */
+
+table{
+
+border-collapse: collapse;
+
+}
+
+
+thead{
+    background-color:#20a9e5 ;
+    
+}
+
+th{
+    width: 500px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.tbody{
+
+        background-color:#20aae57d ;
+}
+
+/* /tabella */
+
+/* footer */
+footer{
+    margin-top: 30px;
+}
+
+
+h4{
+    color: #8e8e8e;
+    margin-bottom: 5px;
+}
+
+
+#img1{
+
+    background-image: url(../assests/img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: white;
+    
+}
+
+#img2{
+
+    background-image: url(../assests/img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: white;
+    margin-top: 10px
+}
+
+/* /footer */
