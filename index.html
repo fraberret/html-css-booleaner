@@ -7,59 +7,71 @@
     <title>The Booleaner</title>
 </head>
 <body>
-    <header>
+    <header id="site_header">
 
-        <div  id="site_header">
-        
         <img src="./assests/img/logo.svg" alt="" id="logo">
-        </div>
+        
     </header>
     <!-- /#site_header -->
     
     <main id="site_main">
         
-            
-            <!-- title section -->
-            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            
-            <div id="autore">
-                <span>Scritto da</span> 
-                <span id="booleaner"> The booleaner</span>
-                <p class="small">il 10/10/2020</p>
-            </div>
-            <!-- /tite section -->
-            
-            <!-- photo section -->
-            <img src="./assests/img/tim-1.jpg" alt="">
-            <img src="./assests/img/tim-2.jpg" alt=""> 
-            
-            <div class="small">
-                <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-                <p>2nd Photo: Wikimedia, by Paul Clarke</p>
-            </div>
-            <!-- /photo section -->    
-            
-            <!-- first paragraph --> 
-            <div class= "space">
-                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, incidunt adipisci tempore et soluta quam necessitatibus rem sequi corporis optio animi cumque dolorem dicta, ad, nihil debitis magnam. Suscipit ipsum corporis consectetur quam, repudiandae, odio accusantium repellat, eaque harum optio id.</span> 
-                <span class="subtitled"> Saepe, autem placeat maiores cupiditate suscipit vero consectetur commodi qui debitis expedita natus rerum culpa distinctio </span>
-                <span> rem quas amet ea laudantium. Earum nobis porro eos, amet maiores beatae aperiam accusantium culpa ducimus cum ea officiis fugiat, numquam placeat.</span>
-            </div>
-            <!-- /first paragraph -->
-            
-            <!-- list -->
-            <div class="space">
-                <ul>
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eveniet id laudantium nemo qui odio velit culpa, odit itaque expedita sequi dolor, quisquam earum quidem officiis veniam dicta aliquid consequuntur.</li>
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eveniet id laudantium nemo qui odio velit culpa, odit itaque expedita sequi dolor, quisquam earum quidem officiis veniam dicta aliquid consequuntur.</li>
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eveniet id laudantium nemo qui odio velit culpa, odit itaque expedita sequi dolor, quisquam earum quidem officiis veniam dicta aliquid consequuntur.</li>
-                </ul>
+        <article>
+            <header>
 
-            </div>
-            <!-- /list -->
+                <!-- title section -->
+                <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                
+                <div class="metadata">
+                    <div>
+                        Scritto da
+                        <a id="author"> The booleaner</a>
+                    
+                    </div class="date">
+                        il 10/10/2020
+                     </div>
+            </header>
             
-            <!-- table section -->
-            <div class="space"></div>
+            <!-- /tite section -->
+            <div class="content">
+                
+                <!-- photo section -->
+                <div class="images">
+
+                    <img src="./assests/img/tim-1.jpg" alt="">
+                    <img src="./assests/img/tim-2.jpg" alt=""> 
+                    
+                    <div class="caption">
+
+                        <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
+                        <div>2nd Photo: Wikimedia, by Paul Clarke</div>
+                    </div>
+                    
+                </div>
+                <!-- /photo section -->    
+            
+                
+                <!-- first paragraph --> 
+                <div class= "space">
+                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, incidunt adipisci tempore et soluta quam necessitatibus rem sequi corporis optio animi cumque dolorem dicta, ad, nihil debitis magnam. Suscipit ipsum corporis consectetur quam, repudiandae, odio accusantium repellat, eaque harum optio id.</span> 
+                    <span class="subtitled"> Saepe, autem placeat maiores cupiditate suscipit vero consectetur commodi qui debitis expedita natus rerum culpa distinctio </span>
+                    <span> rem quas amet ea laudantium. Earum nobis porro eos, amet maiores beatae aperiam accusantium culpa ducimus cum ea officiis fugiat, numquam placeat.</span>
+                </div>
+                <!-- /first paragraph -->
+                
+                <!-- list -->
+                <div class="space">
+                    <ul>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eveniet id laudantium nemo qui odio velit culpa, odit itaque expedita sequi dolor, quisquam earum quidem officiis veniam dicta aliquid consequuntur.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eveniet id laudantium nemo qui odio velit culpa, odit itaque expedita sequi dolor, quisquam earum quidem officiis veniam dicta aliquid consequuntur.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eveniet id laudantium nemo qui odio velit culpa, odit itaque expedita sequi dolor, quisquam earum quidem officiis veniam dicta aliquid consequuntur.</li>
+                    </ul>
+                    
+                </div>
+                <!-- /list -->
+                
+                <!-- table section -->
+                
                 <table>
                     
                     <thead>
@@ -87,7 +99,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+                
             <!-- /table section -->
             
             <!-- last paragraph -->
@@ -97,18 +109,29 @@
                 <span> rem quas amet ea laudantium. Earum nobis porro eos, amet maiores beatae aperiam accusantium culpa ducimus cum ea officiis fugiat, numquam placeat.</span>
             </div>    
             <!-- /last paragraph -->
-
-    </main>
-        <!-- /#site_main -->
-    
+            </div>
+        </article> 
         
+        <section>
+            <h4>Potrebbero interessarti</h4>
+        
+        <div id="monitor" class="related_article">
+            <div class="related_article_title">Lorem , ipsum dolor.</div>
+        </div>
+       
+        <div id="graph" class="related_article">
+            <div class="related_article_title">Lorem , ipsum dolor.</div>
+        </div>
+        
+        </section>
+        
+    </main>
+    <!-- /#site_main -->
+    
+    
     <footer id="site_footer">
         
-        <h4>Potrebbero interessarti</h4>
         
-        <p id="img1">Lorem, ipsum dolor.</p>
-        <p id="img2">Lorem, ipsum dolor.</p>
-
     </footer>
     <!-- /#site_footer -->
 </body>
